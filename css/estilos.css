@@ -12,12 +12,12 @@ body p,h5,h3,a,li{
 
 /*Le damos un color a los encabezados principales*/
 body h5,h3{
-	color: red;
+	color: blue;
 }
 
 /*Le damos color al resto de la pagina*/
 body p,td{
-	color: red;
+	color: blue;
 }
 
 /*Definimos la capa superior*/
@@ -25,7 +25,7 @@ body p,td{
 	position: relative;
 	width: 1200px;
 	height: 35px;
-	background-color: red;
+	background-color: blue;
 }
 
 /*Definimos el footer de nuestra pagina*/
@@ -33,9 +33,9 @@ body p,td{
 	position: relative;
 	width: 1200px;
 	height: 35px;
-	border-top: 1px solid red;
-	border-bottom: 1px solid red;
-	background-color: red;
+	border-top: 1px solid blue;
+	border-bottom: 1px solid blue;
+	background-color: blue;
 	margin-bottom: 20px;
 }
 
@@ -48,7 +48,7 @@ body p,td{
 	left: 1000px;
 	padding: 10px;
 	margin: 8px 0px 8px 8px;
-	border: 1px solid red;
+	border: 1px solid blue;
 }
 
 /*Definimos la zona central*/
@@ -72,8 +72,8 @@ body p,td{
 	height: 425px;
 	margin: 8px 12px 16px 0px;
 	padding: 12px;
-	border: 1px solid red;
-	background-color: red;
+	border: 1px solid blue;
+	background-color: blue;
 }
 
 #publicidad{
@@ -82,8 +82,8 @@ body p,td{
 	padding: 12px;
 	display: block;
 	text-align: center;
-	border: 1px dashed red;
-	background-color: red;
+	border: 1px dashed blue;
+	background-color: blue;
 }
 
 .art{
@@ -124,13 +124,13 @@ body p,td{
 
 .art table{
 	border-collapse: separate;
-	border: 4px ridge red;
+	border: 4px ridge blue;
 	border-spacing: 5px;
 	border-radius: 10px;
 }
 
 .art td{
-	border: 1px solid red;
+	border: 1px solid blue;
 }
 
 #casos{
@@ -149,7 +149,7 @@ body p,td{
 
 #centro hr {
 	width: 700px;
-	color: red;
+	color: blue;
 }
 
 .info li{
@@ -161,7 +161,7 @@ body p,td{
 .info div{
 	padding: 10px 15px;
 	margin-bottom: 8px;
-	background-color: red;
+	background-color: blue;
 }
 
 #pie p{
@@ -171,7 +171,7 @@ body p,td{
 
 #pie a, #pie p{
 	font-size: 11px;
-	color: red;
+	color: blue;
 }
 
 #pie a:link{
