@@ -1,0 +1,195 @@
+/*La pagina se centra y elimina los bordes blancos*/
+*{
+	margin: 0 auto;
+}
+
+/*Le damos el estilo general a la fuente para toda la pagina*/
+body p,h5,h3,a,li{
+	font-family: verdana;
+	text-align: left;
+	margin-bottom: 7px;
+}
+
+/*Le damos un color a los encabezados principales*/
+body h5,h3{
+	color: #483D8B;
+}
+
+/*Le damos color al resto de la pagina*/
+body p,td{
+	color: #202020;
+}
+
+/*Definimos la capa superior*/
+#nav{
+	position: relative;
+	width: 1200px;
+	height: 35px;
+	background-color: #0D58A4;
+}
+
+/*Definimos el footer de nuestra pagina*/
+#pie{
+	position: relative;
+	width: 1200px;
+	height: 35px;
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	background-color: #F3F3F3;
+	margin-bottom: 20px;
+}
+
+/*Definimos la capa derecha compuesta por noticias y publicidad*/
+#derecho{
+	position: absolute;
+	overflow: hidden;
+	width: 168px;
+	height: 875px;
+	left: 1000px;
+	padding: 10px;
+	margin: 8px 0px 8px 8px;
+	border: 1px solid #d39360;
+}
+
+/*Definimos la zona central*/
+#centro{
+	overflow: visible;	/*Si esto duera hidden en vez de visible, se cortaria por la mitad de la imagen mas o menos*/
+	width: 800px;
+	height: 570px;
+	position: absolute;
+	left: 200px;
+}
+
+/*Definimos la zona izquierda*/
+#izquierdo{
+	width: 200px;
+	height: 836px;
+	position: absolute;
+}
+
+#noticias{
+	overflow: scroll;
+	height: 425px;
+	margin: 8px 12px 16px 0px;
+	padding: 12px;
+	border: 1px solid #CCCCCC;
+	background-color: #F3F3F3;
+}
+
+#publicidad{
+	overflow: hidden;
+	margin: 8px 12px 16px 0px;
+	padding: 12px;
+	display: block;
+	text-align: center;
+	border: 1px dashed #FFCC99;
+	background-color: #FFF1CD;
+}
+
+.art{
+	padding: 8px 12px 12px;
+	margin: 16px;
+}
+
+
+/*Apartir de aqui definimos las especificaciones de cada una de nuestras capas*/
+#nav h1{
+	position: relative;
+	display: inline-block;
+	font-size: 36px;
+	top: 1px;
+}
+
+#nav img{
+	position: absolute;
+	display: inline-block;
+	width: 49px;
+	left: 275px;
+	top: 7px;
+}
+
+#noticias p,#noticias a,.info p,.info a{
+	font-size: 11px;
+	line-height: 16px;
+	margin-bottom: 10px;
+}
+
+#noticias h5, .info h5{
+	font-size: 13px;
+}
+
+#publicidad img{
+	width: 140px;
+}
+
+.art table{
+	border-collapse: separate;
+	border: 4px ridge #0D58A4;
+	border-spacing: 5px;
+	border-radius: 10px;
+}
+
+.art td{
+	border: 1px solid #0D58A4;
+}
+
+#casos{
+	width: 410px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	border-radius: 15px;
+}
+
+.adopciones{
+	width: 100px;
+	height: 75px;
+	margin: 6px;
+}
+
+#centro hr {
+	width: 700px;
+	color: #0D58A4;
+}
+
+.info li{
+	font-size: 11px;
+	line-height: 16px;
+	margin-bottom: 5px;
+}
+
+.info div{
+	padding: 10px 15px;
+	margin-bottom: 8px;
+	background-color: #D39360;
+}
+
+#pie p{
+	display: inline-block;
+	padding: 13px 2px 0px;
+}
+
+#pie a, #pie p{
+	font-size: 11px;
+	color: #808080
+}
+
+#pie a:link{
+	text-decoration:none;
+}
+
+.info{
+	padding-bottom: 12px;
+}
+
+.negrita{
+	font-weight: bold;
+}
+
+.cursiva{
+	font-style: italic;
+}
+
+.esquinas{
+	border-radius: 3px;
+}
